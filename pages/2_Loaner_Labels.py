@@ -174,7 +174,7 @@ def draw_label(c, x, y, v):
     c.line(x + pad, r2_y, x + txt_w - pad * 0.5, r2_y)
 
     r3_y = fields_bot
-    draw_field('LICENSE PLATE', v.get('plate', ''), x + pad, r3_y, fs=8.5)
+    draw_field('LICENSE PLATE', v.get('plate',), x + pad, r3_y, fs=8.5)
 
     c.setStrokeColor(MID_GRAY); c.setLineWidth(0.5)
     c.line(x + txt_w, y, x + txt_w, y + H)
