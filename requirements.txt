@@ -1,0 +1,9 @@
+streamlit
+pypdf
+pdfplumber
+openpyxl
+pdf2image
+pytesseract
+reportlab
+qrcode[pil]
+pillow
